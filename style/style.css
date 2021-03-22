@@ -367,20 +367,27 @@
     justify-content: space-between;
 }
 
-.form__email {
+.email__desc {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    color: #22262A
+}
+.email__label {
     position: relative;
-    width: 525px;
 }
 
-.email-input {
-  padding: 10px 360px 10px 25px;
+#email {
+    width: 100%;
+    padding: 10px 0 10px 25px;
     border: none;
     border-radius: 5px;
-    margin-bottom: 70px;
+    margin-top: 25px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.07);
 
 }
 
-::placeholder {
+#email::placeholder {
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -388,57 +395,55 @@
     color: #22262A;
 }
 
-.join-button {
+.email__btn {
     position: absolute;
-    right: 20px;
-    top: 10px;
+    right: 25px;
+    top: 0;
+    bottom: 0;
     border: none;
-    background: white;
+    outline: none;
     font-weight: 600;
     font-size: 15px;
     line-height: 22px;
     color: #22262A;
+    background: #FFFFFF;
 }
 
-.main__info {
+.down__nav {
     display: flex;
+    justify-content: space-between;
 }
 
-.help{
-    padding: 0 88px 0 82px;
-
-}
-
-.main__info-heading {
-    display: block;
+.down__menu-desc {
+    list-style-type: none;
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
     color: #22262A;
-    margin-bottom: 25px;
+    margin-top: 70px;
 }
 
-.info__list {
+.down__menu-item {
     list-style-type: none;
 }
 
-.main__info-link {
+.down__menu-link {
     display: block;
+    margin-top: 25px;
     text-decoration: none;
     font-weight: normal;
     font-size: 15px;
     line-height: 22px;
     color: #22262A;
-    margin-bottom: 20px;
 }
 
-#footer {
+.footer {
     padding: 35px 0;
     background: #E7F5F8;
-}
-.footer__info {
-    display: block;
     text-align: center;
+    border-radius: 0 0 30px 30px;
+}
+.footer__desc {
     font-weight: normal;
     font-size: 15px;
     line-height: 22px;
